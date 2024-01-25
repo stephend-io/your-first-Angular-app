@@ -3347,15 +3347,6 @@ function tap(observerOrNext, error, complete) {
   }) : identity;
 }
 
-// node_modules/rxjs/dist/esm5/internal/operators/timeInterval.js
-var TimeInterval = function() {
-  function TimeInterval2(value, interval2) {
-    this.value = value;
-    this.interval = interval2;
-  }
-  return TimeInterval2;
-}();
-
 // node_modules/@angular/core/fesm2022/core.mjs
 function getClosureSafeProperty(objWithPropertyToExtract) {
   for (let key in objWithPropertyToExtract) {
@@ -19415,7 +19406,7 @@ function ɵsetClassDebugInfo(type, debugInfo) {
     def.debugInfo = debugInfo;
   }
 }
-var angularCoreEnv = (() => ({
+var angularCoreEnv = /* @__PURE__ */ (() => ({
   "ɵɵattribute": ɵɵattribute,
   "ɵɵattributeInterpolate1": ɵɵattributeInterpolate1,
   "ɵɵattributeInterpolate2": ɵɵattributeInterpolate2,
@@ -23742,4 +23733,4 @@ export {
    * found in the LICENSE file at https://angular.io/license
    *)
 */
-//# sourceMappingURL=chunk-THWPMT2E.js.map
+//# sourceMappingURL=chunk-OX3UOFCS.js.map
